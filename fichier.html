@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="fichier4.css">
+    <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+</head>
+<body>
+    <div class="forme">
+        <div class="impute" id="ecran"></div>
+        <div class="operetor">
+            <input type="submit" onclick="Afficher2('+')" value=+>
+            <input type="submit" onclick="Afficher2('-')" value=- />
+            <input type="submit" onclick="Afficher2('*')" value=* />
+            <input type="submit" onclick="Afficher2('/')" value=/ />
+        </div>
+        <div class="contenent">
+            <div class="number">
+
+                <input type="submit" onclick="Afficher(1)" value=1>
+                <input type="submit" onclick="Afficher(2)" value=2 />
+                <input type="submit" onclick="Afficher(3)" value=3 />
+                <input type="submit" onclick="Afficher(4)" value=4 />
+            </div>
+            <div class="number">
+                <input type="submit" onclick="Afficher(5)" value=5>
+                <input type="submit" onclick="Afficher(6)" value=6>
+                <input type="submit" onclick="Afficher(7)" value=7>
+                <input type="submit" onclick="Afficher(8)" value=8>
+            </div>
+            <div class="number">
+                <input type="submit" onclick="Afficher(0)" value=0>
+                <input type="submit" onclick="Afficher(9)" value=9>
+                <input type="submit" onclick="Afficher('.')" value='.'>
+                <input type="submit" value="Del" onclick="Supprimer()">
+
+            </div>
+
+        </div>
+        <div><input type="submit" id="resulta" value="=" onclick="Resulta()"/> </div>
+
+    </div>
+   
+    <div><p> Copyrights  &copy 2018 by Kamili-dev  </p></div>
+        
+    
+    <script src="fichier2.js"></script>
+</body>
+</html>

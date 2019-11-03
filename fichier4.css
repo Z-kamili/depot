@@ -1,0 +1,52 @@
+﻿body
+{
+    background-color: rgb(217, 211, 211);
+}
+.impute{
+
+  width:27em;
+  height:5em;
+  background:rgb(31, 31, 49);
+  color:white;
+
+
+}
+.operetor input{
+    height:4em;
+    width:7em;
+    background:rgb(217, 211, 211);
+    list-style-type:none;
+    font-size:15px;
+    font-family: 'Changa', sans-serif;
+    
+    
+}
+.number input{
+    height:4em;
+    width:7em;
+    background:rgb(255, 255, 255);
+    font-size:15px;
+    font-family: 'Changa', sans-serif;
+    
+}
+#resulta {
+    height: 7em;
+    background: rgb(245, 52, 52);
+    color: white;
+    width: 32.4em;
+    font-family: 'Changa', sans-serif;
+   
+    
+}
+.forme{
+    margin-left:420px;
+    margin-top:150px;
+
+}
+p{
+  
+     font-family: 'Changa', sans-serif;
+     margin-left:520px;
+
+}
+
